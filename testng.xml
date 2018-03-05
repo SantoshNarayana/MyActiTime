@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.TaskTest.VerifyTipsLight"/>
+      <class name="com.actitime.TaskTest.BackToME"/>
+      <class name="com.actitime.TaskTest.AddNewTaskTest"/>      
+      <class name="com.actitime.ReportsTest.ExtractMonthlyPerformanceCSV"/>
+      <class name="com.actitime.TaskTest.DeleteCreatedTask"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

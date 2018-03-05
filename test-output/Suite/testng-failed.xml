@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.actitime.ReportsTest.ExtractMonthlyPerformanceCSV">
+        <methods>
+          <include name="OpenDBConnection"/>
+          <include name="extractToCSV"/>
+          <include name="CloseDBConnection"/>
+          <include name="postCondition"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- com.actitime.ReportsTest.ExtractMonthlyPerformanceCSV -->
+      <class name="com.actitime.TaskTest.AddNewTaskTest">
+        <methods>
+          <include name="addNewTask"/>
+          <include name="OpenDBConnection"/>
+          <include name="CloseDBConnection"/>
+          <include name="postCondition"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- com.actitime.TaskTest.AddNewTaskTest -->
+      <class name="com.actitime.TaskTest.DeleteCreatedTask">
+        <methods>
+          <include name="OpenDBConnection"/>
+          <include name="deleteTask"/>
+          <include name="CloseDBConnection"/>
+          <include name="postCondition"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- com.actitime.TaskTest.DeleteCreatedTask -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

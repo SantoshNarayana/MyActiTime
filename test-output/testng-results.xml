@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[open connection]]>
+    </line>
+    <line>
+      <![CDATA[dynamicXpathByText method -//*[contains(text(),'Add New Task')]]]>
+    </line>
+    <line>
+      <![CDATA[dynamicXpathByText method -//*[contains(text(),'Create new tasks')]]]>
+    </line>
+    <line>
+      <![CDATA[dynamicXpathByText method -//*[contains(text(),'- Select Customer -')]]]>
+    </line>
+    <line>
+      <![CDATA[dynamicXpathByText method -//*[contains(text(),'- New Customer -')]]]>
+    </line>
+    <line>
+      <![CDATA[dynamicXpathByText method -//*[contains(text(),'Create Tasks')]]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[open connection]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30687" started-at="2018-03-03T05:04:10Z" finished-at="2018-03-03T05:04:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30687" started-at="2018-03-03T05:04:10Z" finished-at="2018-03-03T05:04:40Z">
+      <class name="com.actitime.TaskTest.AddNewTaskTest">
+        <test-method status="PASS" signature="OpenDBConnection()[pri:0, instance:com.actitime.TaskTest.AddNewTaskTest@86be70a]" name="OpenDBConnection" is-config="true" duration-ms="44" started-at="2018-03-03T10:34:10Z" finished-at="2018-03-03T10:34:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[open connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OpenDBConnection -->
+        <test-method status="PASS" signature="preConditions()[pri:0, instance:com.actitime.TaskTest.AddNewTaskTest@86be70a]" name="preConditions" is-config="true" duration-ms="20984" started-at="2018-03-03T10:34:10Z" finished-at="2018-03-03T10:34:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method status="PASS" signature="addNewTask()[pri:0, instance:com.actitime.TaskTest.AddNewTaskTest@86be70a]" name="addNewTask" duration-ms="9050" started-at="2018-03-03T10:34:31Z" finished-at="2018-03-03T10:34:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[dynamicXpathByText method -//*[contains(text(),'Add New Task')]]]>
+            </line>
+            <line>
+              <![CDATA[dynamicXpathByText method -//*[contains(text(),'Create new tasks')]]]>
+            </line>
+            <line>
+              <![CDATA[dynamicXpathByText method -//*[contains(text(),'- Select Customer -')]]]>
+            </line>
+            <line>
+              <![CDATA[dynamicXpathByText method -//*[contains(text(),'- New Customer -')]]]>
+            </line>
+            <line>
+              <![CDATA[dynamicXpathByText method -//*[contains(text(),'Create Tasks')]]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewTask -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.actitime.TaskTest.AddNewTaskTest@86be70a]" name="postCondition" is-config="true" duration-ms="622" started-at="2018-03-03T10:34:40Z" finished-at="2018-03-03T10:34:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="CloseDBConnection()[pri:0, instance:com.actitime.TaskTest.AddNewTaskTest@86be70a]" name="CloseDBConnection" is-config="true" duration-ms="0" started-at="2018-03-03T10:34:41Z" finished-at="2018-03-03T10:34:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[open connection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseDBConnection -->
+      </class> <!-- com.actitime.TaskTest.AddNewTaskTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
